@@ -1,0 +1,16 @@
+.title {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+textarea {
+  resize: none;
+}
+
+.btn-custom {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-top: 25px;
+	transform: translate(-50%, -50%);
+}

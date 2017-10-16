@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <div class="navbar-header">  
+    <a class="navbar-brand" href="#">Comunique+</a>
+  </div>
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]=''>Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Campanha</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/mensagem']">Mensagens</a>
+      </li>
+      <li class="btn-danger btn-logout">
+        <a class="nav-link" [style.color]="'white'" [routerLink]="['/login']">Sair</a>
+      </li>
+    </ul>
+  </div>
+</nav>
